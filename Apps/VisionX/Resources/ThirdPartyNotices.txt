@@ -1,0 +1,48 @@
+UHF X11 Third-Party Notices
+
+UHF X11 includes and/or links third-party X.Org source components and bundles
+X.Org-distributed bitmap font resources.
+
+Full upstream license texts are included in the app bundle under:
+
+    ThirdPartyLicenses/Components
+    ThirdPartyLicenses/Fonts
+
+Vendored source components:
+
+- X.Org Server 21.1.25
+- xtrans 1.6.0
+- pixman 0.46.0
+- libXau 1.0.12
+- libfontenc 1.1.8
+- libxkbfile 1.1.3
+- libXfont2 2.0.9
+
+Bundled X.Org font modules represented in X11Fonts:
+
+- font-adobe-100dpi 1.0.4
+- font-adobe-75dpi 1.0.4
+- font-adobe-utopia-100dpi 1.0.5
+- font-adobe-utopia-75dpi 1.0.5
+- font-arabic-misc 1.0.4
+- font-bh-100dpi 1.0.4
+- font-bh-75dpi 1.0.4
+- font-bh-lucidatypewriter-100dpi 1.0.4
+- font-bh-lucidatypewriter-75dpi 1.0.4
+- font-bitstream-100dpi 1.0.4
+- font-bitstream-75dpi 1.0.4
+- font-cursor-misc 1.0.4
+- font-daewoo-misc 1.0.4
+- font-dec-misc 1.0.4
+- font-isas-misc 1.0.4
+- font-jis-misc 1.0.4
+- font-micro-misc 1.0.4
+- font-misc-misc 1.1.3
+- font-mutt-misc 1.0.4
+- font-schumacher-misc 1.1.3
+- font-sony-misc 1.0.4
+- font-sun-misc 1.0.4
+
+The hw/visionx integration code, VisionGL compatibility renderer, generated
+immersive backdrop, and app UI code are UHF X11 project code/assets unless a
+separate notice is provided.

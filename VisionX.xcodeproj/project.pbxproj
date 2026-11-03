@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* VisionXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* VisionXApp.swift */; };
+		100000000000000000000002 /* VisionXAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* VisionXAppModel.swift */; };
+		100000000000000000000003 /* ServerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* ServerControlView.swift */; };
+		100000000000000000000004 /* XWindowSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* XWindowSurfaceView.swift */; };
+		100000000000000000000005 /* SpatialDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* SpatialDesktopView.swift */; };
+		100000000000000000000006 /* VisionXCore in Frameworks */ = {isa = PBXBuildFile; productRef = 900000000000000000000001 /* VisionXCore */; };
+		100000000000000000000007 /* VisionGL in Frameworks */ = {isa = PBXBuildFile; productRef = 900000000000000000000002 /* VisionGL */; };
+		100000000000000000000008 /* X11Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* X11Fonts */; };
+		100000000000000000000009 /* CRTWindowShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* CRTWindowShaders.metal */; };
+		10000000000000000000000A /* ImmersiveBackdrop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* ImmersiveBackdrop.usdz */; };
+		10000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* Assets.xcassets */; };
+		10000000000000000000000C /* symbolics-3640.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* symbolics-3640.usdz */; };
+		10000000000000000000000D /* AboutSymbolics3640.usda in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* AboutSymbolics3640.usda */; };
+		10000000000000000000000E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* PrivacyInfo.xcprivacy */; };
+		10000000000000000000000F /* VisionGLShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* VisionGLShaders.metal */; };
+		100000000000000000000010 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* ThirdPartyNotices.txt */; };
+		100000000000000000000011 /* ThirdPartyLicenses in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* ThirdPartyLicenses */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* VisionXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionXApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* VisionXAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionXAppModel.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* ServerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerControlView.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* XWindowSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWindowSurfaceView.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* SpatialDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialDesktopView.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000007 /* VisionX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionX.entitlements; sourceTree = "<group>"; };
+		200000000000000000000008 /* UHF X11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UHF X11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000009 /* X11Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/X11Fonts; sourceTree = "<group>"; };
+		20000000000000000000000A /* CRTWindowShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CRTWindowShaders.metal; sourceTree = "<group>"; };
+		20000000000000000000000B /* ImmersiveBackdrop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Resources/ImmersiveBackdrop.usdz; sourceTree = "<group>"; };
+		20000000000000000000000C /* ImmersiveBackdrop.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/ImmersiveBackdrop.usda; sourceTree = "<group>"; };
+		20000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20000000000000000000000E /* symbolics-3640.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "symbolics-3640.usdz"; sourceTree = "<group>"; };
+		20000000000000000000000F /* AboutSymbolics3640.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = AboutSymbolics3640.usda; sourceTree = "<group>"; };
+		200000000000000000000010 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		200000000000000000000011 /* VisionGLShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = VisionGLShaders.metal; sourceTree = "<group>"; };
+		200000000000000000000012 /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/ThirdPartyNotices.txt; sourceTree = "<group>"; };
+		200000000000000000000013 /* ThirdPartyLicenses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/ThirdPartyLicenses; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000006 /* VisionXCore in Frameworks */,
+				100000000000000000000007 /* VisionGL in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* Apps */,
+				400000000000000000000005 /* Design */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000004 /* VisionX */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000008 /* UHF X11.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400000000000000000000004 /* VisionX */ = {
+			isa = PBXGroup;
+				children = (
+					20000000000000000000000D /* Assets.xcassets */,
+					200000000000000000000001 /* VisionXApp.swift */,
+					200000000000000000000002 /* VisionXAppModel.swift */,
+				200000000000000000000003 /* ServerControlView.swift */,
+				200000000000000000000004 /* XWindowSurfaceView.swift */,
+				20000000000000000000000A /* CRTWindowShaders.metal */,
+				200000000000000000000011 /* VisionGLShaders.metal */,
+				200000000000000000000005 /* SpatialDesktopView.swift */,
+				200000000000000000000009 /* X11Fonts */,
+				20000000000000000000000B /* ImmersiveBackdrop.usdz */,
+				20000000000000000000000C /* ImmersiveBackdrop.usda */,
+				200000000000000000000012 /* ThirdPartyNotices.txt */,
+				200000000000000000000013 /* ThirdPartyLicenses */,
+				200000000000000000000006 /* Info.plist */,
+				200000000000000000000010 /* PrivacyInfo.xcprivacy */,
+				200000000000000000000007 /* VisionX.entitlements */,
+			);
+			path = VisionX;
+			sourceTree = "<group>";
+		};
+		400000000000000000000005 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000006 /* 3D */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		400000000000000000000006 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000F /* AboutSymbolics3640.usda */,
+				20000000000000000000000E /* symbolics-3640.usdz */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* VisionX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600000000000000000000002 /* Build configuration list for PBXNativeTarget "VisionX" */;
+			buildPhases = (
+				700000000000000000000001 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				700000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionX;
+			packageProductDependencies = (
+				900000000000000000000001 /* VisionXCore */,
+				900000000000000000000002 /* VisionGL */,
+			);
+			productName = "UHF X11";
+			productReference = 200000000000000000000008 /* UHF X11.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 600000000000000000000001 /* Build configuration list for PBXProject "VisionX" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				900000000000000000000003 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 60;
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* VisionX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+				files = (
+					10000000000000000000000B /* Assets.xcassets in Resources */,
+					100000000000000000000008 /* X11Fonts in Resources */,
+					10000000000000000000000A /* ImmersiveBackdrop.usdz in Resources */,
+					10000000000000000000000D /* AboutSymbolics3640.usda in Resources */,
+					10000000000000000000000C /* symbolics-3640.usdz in Resources */,
+					10000000000000000000000E /* PrivacyInfo.xcprivacy in Resources */,
+					100000000000000000000010 /* ThirdPartyNotices.txt in Resources */,
+					100000000000000000000011 /* ThirdPartyLicenses in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* VisionXApp.swift in Sources */,
+				100000000000000000000002 /* VisionXAppModel.swift in Sources */,
+				100000000000000000000003 /* ServerControlView.swift in Sources */,
+				100000000000000000000004 /* XWindowSurfaceView.swift in Sources */,
+				100000000000000000000009 /* CRTWindowShaders.metal in Sources */,
+				10000000000000000000000F /* VisionGLShaders.metal in Sources */,
+				100000000000000000000005 /* SpatialDesktopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		600000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = Apps/VisionX/VisionX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/VisionX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.uhf.x11;
+				PRODUCT_NAME = "UHF X11";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		600000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = Apps/VisionX/VisionX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Apps/VisionX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.uhf.x11;
+				PRODUCT_NAME = "UHF X11";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600000000000000000000001 /* Build configuration list for PBXProject "VisionX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600000000000000000000003 /* Debug */,
+				600000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600000000000000000000002 /* Build configuration list for PBXNativeTarget "VisionX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600000000000000000000005 /* Debug */,
+				600000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		900000000000000000000003 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		900000000000000000000001 /* VisionXCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900000000000000000000003 /* XCLocalSwiftPackageReference "." */;
+			productName = VisionXCore;
+		};
+		900000000000000000000002 /* VisionGL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 900000000000000000000003 /* XCLocalSwiftPackageReference "." */;
+			productName = VisionGL;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 800000000000000000000001 /* Project object */;
+}
